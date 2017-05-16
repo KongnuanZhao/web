@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>用例名称</th><th>方法数</th><th>通过数</th><th>跳过的测试用例</th><th>错误的测试用例</th><th>耗时</th><th>已运行的组</th><th>未运行的组</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">stock</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi_attn">6</td><td class="numi">0</td><td class="numi">18.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
+<tr><th>模块名称</th><th>方法名称</th><th>作者</th><th>描述</th><th>开始</th><th>执行时间<br/>(ms)</th></tr>
+<tr id="t1"><th colspan="5">stock &#8212; skipped</th></tr>
+<tr class="skippedodd"><td>com.acsm.test.testcases.stock.enterstock.EnterStock_Test</td><td><a href="#m-286146867"><b>enterStockWorkflow</b> (enterStock) </a></td><td>unknown</td><td class="numi">unknown</td></td><td>2017-05-04 15:21:27</td><td class="numi">236</td></tr>
+<tr class="skippedeven"><td rowspan="5">com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test</td><td><a href="#m-1496262513"><b>inventoryStockWorkflow</b> (inventoryStock) </a></td><td>unknown</td><td class="numi">unknown</td></td><td>2017-05-04 15:21:28</td><td class="numi">190</td></tr><tr class="skippedeven"><td><a href="#m-1033448006"><b>fileDownload</b> (inventoryStock) </a></td><td>unknown</td><td class="numi">unknown</td></td><td>2017-05-04 15:21:28</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m1916451658"><b>collapseDisplayed</b> (inventoryStock) </a></td><td>unknown</td><td class="numi">unknown</td></td><td>2017-05-04 15:21:29</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m-121975441"><b>listVerification</b> (inventoryStock) </a></td><td>unknown</td><td class="numi">unknown</td></td><td>2017-05-04 15:21:28</td><td class="numi">0</td></tr><tr class="skippedeven"><td><a href="#m-75719377"><b>stockSearchVerification</b> (inventoryStock) </a></td><td>unknown</td><td class="numi">unknown</td></td><td>2017-05-04 15:21:29</td><td class="numi">0</td></tr>
+<tr><th colspan="5">stock &#8212; passed</th></tr>
+<tr class="passedodd"><td>com.acsm.test.testcases.login.LoginSuccessFunction_Test</td><td><a href="#m-1278950823"><b>loginSuccessFunction</b>  </a></td><td>GuoKuo</td><td class="numi">验证登陆</td></td><td>2017-05-04 15:21:20</td><td class="numi">7716</td></tr>
+</table>
+<h1>stock</h1>
+<h2 id="m-286146867" name="m-286146867" >com.acsm.test.testcases.stock.enterstock.EnterStock_Test:enterStockWorkflow</h2>
+<div>
+<h3>Test Messages</h3>
+RunCount=3<br/>
+result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[contains(@src,&apos;left_icon_3.png&apos;)]&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC-201704071546&apos;, ip: &apos;192.168.153.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8568_31277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5dc377aba089d9cd3dbf75cbcdfa63e
+*** Element info: {Using=xpath, value=//img[contains(@src,&apos;left_icon_3.png&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.acsm.test.utils.SeleniumUtil.highlightElement(SeleniumUtil.java:115)
+	at com.acsm.test.utils.SeleniumUtil.mouseMoveToElement(SeleniumUtil.java:549)
+	at com.acsm.test.testpages.stock.enter.EnterStock.enterStock(EnterStock.java:20)
+	at com.acsm.test.testcases.stock.enterstock.EnterStock_Test.enterStockWorkflow(EnterStock_Test.java:18)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1496262513" name="m-1496262513" >com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test:inventoryStockWorkflow</h2>
+<div>
+<h3>Test Messages</h3>
+RunCount=2<br/>
+result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: 超时!! 0 秒之后还没找到元素 [By.xpath: //div[@class=&apos;inbentory_level&apos;]]
+	at com.acsm.test.utils.SeleniumUtil.waitForElementToLoad(SeleniumUtil.java:300)
+	at com.acsm.test.testpages.stock.inventoryfile.InventoryFile.waitElementsLoad(InventoryFile.java:25)
+	at com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow(InventoryStock_Test.java:24)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1033448006" name="m-1033448006" >com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test:fileDownload</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_04_15_21_28_fileDownload.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_28_fileDownload.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.Throwable: Method InventoryStock_Test.fileDownload()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m1916451658" name="m1916451658" >com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test:collapseDisplayed</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_04_15_21_29_collapseDisplayed.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_29_collapseDisplayed.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.Throwable: Method InventoryStock_Test.collapseDisplayed()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1496262513" name="m-1496262513" >com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test:inventoryStockWorkflow</h2>
+<div>
+<h3>Test Messages</h3>
+RunCount=3<br/>
+result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.AssertionError: 超时!! 0 秒之后还没找到元素 [By.xpath: //div[@class=&apos;inbentory_level&apos;]]
+	at com.acsm.test.utils.SeleniumUtil.waitForElementToLoad(SeleniumUtil.java:300)
+	at com.acsm.test.testpages.stock.inventoryfile.InventoryFile.waitElementsLoad(InventoryFile.java:25)
+	at com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow(InventoryStock_Test.java:24)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 17 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-286146867" name="m-286146867" >com.acsm.test.testcases.stock.enterstock.EnterStock_Test:enterStockWorkflow</h2>
+<div>
+<h3>Test Messages</h3>
+RunCount=2<br/>
+result/screenshot/2017_05_04_15_21_27_enterStockWorkflow.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_27_enterStockWorkflow.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[contains(@src,&apos;left_icon_3.png&apos;)]&quot;}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;PC-201704071546&apos;, ip: &apos;192.168.153.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8568_31277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5dc377aba089d9cd3dbf75cbcdfa63e
+*** Element info: {Using=xpath, value=//img[contains(@src,&apos;left_icon_3.png&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.acsm.test.utils.SeleniumUtil.highlightElement(SeleniumUtil.java:115)
+	at com.acsm.test.utils.SeleniumUtil.mouseMoveToElement(SeleniumUtil.java:549)
+	at com.acsm.test.testpages.stock.enter.EnterStock.enterStock(EnterStock.java:20)
+	at com.acsm.test.testcases.stock.enterstock.EnterStock_Test.enterStockWorkflow(EnterStock_Test.java:18)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-121975441" name="m-121975441" >com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test:listVerification</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_04_15_21_28_listVerification.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_28_listVerification.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.Throwable: Method InventoryStock_Test.listVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-75719377" name="m-75719377" >com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test:stockSearchVerification</h2>
+<div>
+<h3>Test Messages</h3>
+result/screenshot/2017_05_04_15_21_29_stockSearchVerification.jpg<br/>
+<img src="../../result/screenshot/2017_05_04_15_21_29_stockSearchVerification.jpg"/><br/>
+<h3>Failure</h3>
+<div class="stacktrace">java.lang.Throwable: Method InventoryStock_Test.stockSearchVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 9 stack frames</div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m-1278950823" name="m-1278950823" >com.acsm.test.testcases.login.LoginSuccessFunction_Test:loginSuccessFunction</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

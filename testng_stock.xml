@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="selenium_2_combat" parallel="tests" thread-count="1">
+
+	<!-- 调用浏览器chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome"></parameter>
+	<!-- 配置超时时间 -->
+	<parameter name="timeOut" value="10"></parameter>
+	<!-- 配置线程休眠时间 -->
+	<parameter name="sleepTime" value="800"></parameter>
+	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
+	<parameter name="waitMillisecondsForAlert" value="4000" />
+	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testurl" value="http://cs1.nongchangyun.cn/login.seam" />
+
+	<test name="stock" preserve-order="true">
+	    <groups>
+<!-- 			<dependencies> -->
+<!-- 				<group name="inStockList" depends-on="inStockAdd" /> -->
+<!-- 				<group name="outStorage" depends-on="inStockList" /> -->
+<!-- 				<group name="outstorageList" depends-on="outStorage" /> -->
+<!-- 				<group name="allocationBill" depends-on="outstorageList" /> -->
+<!-- 				<group name="allocationRecord" depends-on="allocationBill" /> -->
+<!-- 				<group name="inventorBill" depends-on="allocationRecord" /> -->
+<!-- 				<group name="inventoryRecord" depends-on="inventorBill" /> -->
+<!-- 			</dependencies> -->
+		</groups>
+		<classes>
+			<class name="com.acsm.test.testcases.login.LoginSuccessFunction_Test" />
+			<class name="com.acsm.test.testcases.stock.enterstock.EnterStock_Test" />
+			<class name="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test" />
+<!-- 			<class name="com.acsm.test.testcases.stock.instockadd.InStockAdd_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.instoragelist.InstorageList_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.outstorage.OutStorage_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.outstoragelist.OutstorageList_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.allocationbill.AllocationBill_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.allocationrecord.AllocationRecord_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.inventorybill.InventorBill_Test" /> -->
+<!-- 			<class name="com.acsm.test.testcases.stock.inventoryrecord.InventoryRecord_Test" /> -->
+		</classes>
+	</test>
+
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="com.acsm.test.plugins.arrow.TestResultListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.RetryListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.PowerEmailableReporter" />
+	</listeners>
+</suite>

@@ -1,0 +1,37 @@
+[2017-05-03 09:59:05] [INFO] 当前操作系统是:[Windows 7]
+[2017-05-03 09:59:05] [INFO] 启动测试浏览器：[chrome]
+[2017-05-03 09:59:10] [INFO] 最大化浏览器:chrome
+[2017-05-03 09:59:13] [INFO] 打开测试页面:[http://cs1.nongchangyun.cn/login.seam]
+[2017-05-03 09:59:13] [INFO] loginSuccessFunction 测试用例开始执行！
+[2017-05-03 09:59:13] [INFO] 开始查找元素[By.id: loginForm:username]
+[2017-05-03 09:59:13] [INFO] 找到了元素 [By.id: loginForm:username]
+[2017-05-03 09:59:13] [INFO] 开始查找元素[By.id: btn]
+[2017-05-03 09:59:13] [INFO] 找到了元素 [By.id: btn]
+[2017-05-03 09:59:13] [INFO] 开始查找元素[By.id: loginForm:password]
+[2017-05-03 09:59:13] [INFO] 找到了元素 [By.id: loginForm:password]
+[2017-05-03 09:59:13] [INFO] 开始查找元素[By.xpath: //a[contains(text(),'忘记')]]
+[2017-05-03 09:59:13] [INFO] 找到了元素 [By.xpath: //a[contains(text(),'忘记')]]
+[2017-05-03 09:59:13] [INFO] 开始输入登录信息
+[2017-05-03 09:59:14] [INFO] 清除元素 [By.id: loginForm:username]上的内容
+[2017-05-03 09:59:15] [INFO] 输入：[lina123] 到 [By.id: loginForm:username]
+[2017-05-03 09:59:16] [INFO] 清除元素 [By.id: loginForm:password]上的内容
+[2017-05-03 09:59:18] [INFO] 输入：[acsm0615] 到 [By.id: loginForm:password]
+[2017-05-03 09:59:18] [INFO] 输入登录信息完毕
+[2017-05-03 09:59:18] [INFO] 执行JavaScript语句：[arguments[0].scrollIntoView(true)]
+[2017-05-03 09:59:24] [INFO] 点击元素 [By.id: btn]
+[2017-05-03 09:59:24] [INFO] loginSuccessFunction 测试用例执行成功！
+[2017-05-03 09:59:24] [INFO] enterPurchaseWorkflow 测试用例开始执行！
+[2017-05-03 09:59:30] [INFO] 页面刷新成功！
+[2017-05-03 09:59:31] [INFO] 点击元素 [By.xpath: //img[contains(@src,'left_icon_3.png')]]
+[2017-05-03 09:59:33] [INFO] 开始查找元素[By.xpath: //img[contains(@src,'left_icon_3_9.png')]]
+[2017-05-03 09:59:33] [INFO] 找到了元素 [By.xpath: //img[contains(@src,'left_icon_3_9.png')]]
+[2017-05-03 09:59:36] [INFO] 点击元素 [By.xpath: //img[contains(@src,'left_icon_3_9.png')]]
+[2017-05-03 09:59:38] [INFO] The element: [ xpath: //div[@class='levelMenu_list3']] is displayed
+[2017-05-03 09:59:38] [INFO] 订单打开成功
+[2017-05-03 09:59:38] [INFO] enterPurchaseWorkflow 测试用例执行成功！
+[2017-05-03 09:59:38] [INFO] addOrder 测试用例开始执行！
+[2017-05-03 09:59:39] [INFO] 开始查找元素[By.xpath: //input[contains(@value,'添加订单')]]
+[2017-05-03 09:59:39] [INFO] 找到了元素 [By.xpath: //input[contains(@value,'添加订单')]]
+[2017-05-03 09:59:42] [INFO] 点击元素 [By.xpath: //input[contains(@value,'添加订单')]]
+[2017-05-03 09:59:42] [INFO] addOrder 测试用例执行成功！
+[2017-05-03 09:59:42] [INFO] orderProductPage 测试用例开始执行！

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- thread-count 定义同时启动的浏览器数 、parallel="tests" 表明每个test都是平级的 -->
+<suite name="selenium_2_combat" parallel="tests" thread-count="1">
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome" />
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testurl" value="http://cs1.nongchangyun.cn/login.seam" />
+	<!-- <parameter name="testurl" value="http://app.farmeasy.cn/login.seam" 
+		/> -->
+
+	<!-- 进程等待1秒中的控制时间 ms -->
+	<parameter name="sleepTime" value="800" />
+	<!-- 页面元素10秒不出现超时时间 s -->
+	<parameter name="timeOut" value="10" />
+	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
+	<parameter name="waitMillisecondsForAlert" value="40000" />
+
+	<!-- 定义测试模块，用test标签包围 -->
+
+	<test name="purchase" preserve-order="true">
+		<groups>
+			<dependencies>
+				<!-- <group name="placeOrder" depends-on="enterPurchase" /> -->
+				<!-- <group name="orderAudit" depends-on="placeOrder" /> -->
+				<!-- <group name="orderDispose" depends-on="orderAudit" /> -->
+				<!-- <group name="orderTally" depends-on="orderDispose" /> -->
+				<!-- <group name="orderDeliverey" depends-on="orderTally" /> -->
+				<!-- <group name="orderTransport" depends-on="orderDeliverey" /> -->
+				<!-- <group name="orderFinish" depends-on="orderTransport" /> -->
+
+				<group name="placeOrder" depends-on="enterPurchase" />
+				<group name="orderFinish" depends-on="placeOrder" />
+			</dependencies>
+		</groups>
+		<classes>
+			<class
+				name="com.acsm.test.testcases.login.LoginPage_001_LoginSuccessFunction_Test" />
+			<class name="com.acsm.test.testcases.purchase.Basic_Test" />
+			<class
+				name="com.acsm.test.testcases.purchase.fullworkflow.FullWorkFlow_Server" />
+		</classes>
+	</test>
+
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="com.acsm.test.plugins.arrow.TestResultListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.RetryListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.PowerEmailableReporter" />
+	</listeners>
+</suite> 

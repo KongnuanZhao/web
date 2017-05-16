@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- thread-count 定义同时启动的浏览器数 、parallel="tests" 表明每个test都是平级的 -->
+<suite name="selenium_2_combat" parallel="tests" thread-count="1">
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome_remote" />
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testurl" value="http://cs1.nongchangyun.cn/login.seam" />
+	<!-- 进程等待1秒中的控制时间 -->
+	<parameter name="sleepTime" value="800" />
+	<!-- 页面元素10秒不出现超时时间 -->
+	<parameter name="timeOut" value="20" />
+	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
+	<parameter name="waitMillisecondsForAlert" value="40000" />
+	<!-- 这个是等待alert弹出的时间 单位毫秒 -->
+	<parameter name="localhost" value="192.168.21.126" />
+	<!-- 定义测试模块，用test标签包围 -->
+	<test name="farmshow" preserve-order="true">
+		<groups>
+<!-- 			<dependencies> -->
+<!-- 				<group name="corver" depends-on="enter" /> -->
+<!-- 				<group name="projectsetting" depends-on="corver" /> -->
+<!-- 				<group name="position" depends-on="projectsetting" /> -->
+<!-- 				<group name="environment" depends-on="position" /> -->
+<!-- 				<group name="skill" depends-on="environment" /> -->
+<!-- 				<group name="panorama" depends-on="skill" /> -->
+<!-- 				<group name="honor" depends-on="panorama" /> -->
+<!-- 				<group name="team" depends-on="honor" /> -->
+<!-- 				<group name="specialproducts" depends-on="team" /> -->
+<!-- 				<group name="supply" depends-on="specialproducts" /> -->
+<!-- 				<group name="safeplant" depends-on="supply" /> -->
+<!-- 				<group name="service" depends-on="safeplant" /> -->
+<!-- 				<group name="activity" depends-on="service" /> -->
+<!-- 				<group name="propagandas" depends-on="activity" /> -->
+
+				<!-- <group name="propagandas" depends-on="enter" /> -->
+				<!-- <group name="supply" depends-on="safeplant" /> -->
+				<!-- <group name="propagandas" depends-on="projectsetting" /> -->
+
+<!-- 			</dependencies> -->
+		</groups>
+		<classes>
+			<class
+				name="com.acsm.test.testcases.login.LoginPage_001_LoginSuccessFunction_Test" />
+<!-- 			<class name="com.acsm.test.testcases.farmshow.EnterFarmShow" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.corver.Cover_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.corver.ProjectSetting_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.FarmPosition_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.OurEnvironment_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Skill_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Honor_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Team_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.SpecialProducts_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Panorama_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Publish_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Safe_Planting" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Product_Supply" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Service_Page" /> -->
+<!-- 			<class name="com.acsm.test.testcases.farmshow.Activity_Page" /> -->
+		</classes>
+	</test>
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="com.acsm.test.plugins.arrow.TestResultListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.RetryListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.PowerEmailableReporter" />
+	</listeners>
+</suite> 

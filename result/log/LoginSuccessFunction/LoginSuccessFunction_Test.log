@@ -1,0 +1,86 @@
+[2017-05-04 15:23:00] [INFO] 当前操作系统是:[Windows 7]
+[2017-05-04 15:23:00] [INFO] 启动测试浏览器：[chrome]
+[2017-05-04 15:23:04] [INFO] 最大化浏览器:chrome
+[2017-05-04 15:23:07] [INFO] 打开测试页面:[http://cs1.nongchangyun.cn/login.seam]
+[2017-05-04 15:23:07] [INFO] loginSuccessFunction 测试用例开始执行！
+[2017-05-04 15:23:07] [INFO] 开始查找元素[By.id: loginForm:username]
+[2017-05-04 15:23:07] [INFO] 找到了元素 [By.id: loginForm:username]
+[2017-05-04 15:23:07] [INFO] 开始查找元素[By.id: btn]
+[2017-05-04 15:23:07] [INFO] 找到了元素 [By.id: btn]
+[2017-05-04 15:23:07] [INFO] 开始查找元素[By.id: loginForm:password]
+[2017-05-04 15:23:07] [INFO] 找到了元素 [By.id: loginForm:password]
+[2017-05-04 15:23:07] [INFO] 开始查找元素[By.xpath: //a[contains(text(),'忘记')]]
+[2017-05-04 15:23:07] [INFO] 找到了元素 [By.xpath: //a[contains(text(),'忘记')]]
+[2017-05-04 15:23:07] [INFO] 开始输入登录信息
+[2017-05-04 15:23:09] [INFO] 清除元素 [By.id: loginForm:username]上的内容
+[2017-05-04 15:23:10] [INFO] 输入：[lina123] 到 [By.id: loginForm:username]
+[2017-05-04 15:23:11] [INFO] 清除元素 [By.id: loginForm:password]上的内容
+[2017-05-04 15:23:12] [INFO] 输入：[acsm0615] 到 [By.id: loginForm:password]
+[2017-05-04 15:23:12] [INFO] 输入登录信息完毕
+[2017-05-04 15:23:12] [INFO] 执行JavaScript语句：[arguments[0].scrollIntoView(true)]
+[2017-05-04 15:23:13] [INFO] 点击元素 [By.id: btn]
+[2017-05-04 15:23:13] [INFO] loginSuccessFunction 测试用例执行成功！
+[2017-05-04 15:23:13] [INFO] enterStockWorkflow 测试用例开始执行！
+[2017-05-04 15:23:21] [INFO] 点击元素 [By.xpath: //img[contains(@src,'left_icon_3.png')]]
+[2017-05-04 15:23:23] [INFO] 开始查找元素[By.xpath: //img[contains(@src,'left_icon_3_3.png')]]
+[2017-05-04 15:23:23] [INFO] 找到了元素 [By.xpath: //img[contains(@src,'left_icon_3_3.png')]]
+[2017-05-04 15:23:27] [INFO] 点击元素 [By.xpath: //img[contains(@src,'left_icon_3_3.png')]]
+[2017-05-04 15:23:29] [INFO] enterStockWorkflow 测试用例执行成功！
+[2017-05-04 15:23:29] [INFO] inventoryStockWorkflow 测试用例开始执行！
+[2017-05-04 15:23:29] [INFO] 开始查找元素[By.xpath: //div[@class='inbentory_level']]
+[2017-05-04 15:23:29] [INFO] 找到了元素 [By.xpath: //div[@class='inbentory_level']]
+[2017-05-04 15:23:29] [INFO] 开始查找元素[By.xpath: //i[@class='collapse_btn']]
+[2017-05-04 15:23:29] [INFO] 找到了元素 [By.xpath: //i[@class='collapse_btn']]
+[2017-05-04 15:23:29] [INFO] 开始查找元素[By.xpath: //button[contains(@data-id,'storageRoom')]]
+[2017-05-04 15:23:29] [INFO] 找到了元素 [By.xpath: //button[contains(@data-id,'storageRoom')]]
+[2017-05-04 15:23:29] [INFO] 开始查找元素[By.xpath: //button[contains(@data-id,'goodsType')]]
+[2017-05-04 15:23:29] [INFO] 找到了元素 [By.xpath: //button[contains(@data-id,'goodsType')]]
+[2017-05-04 15:23:29] [INFO] 开始查找元素[By.xpath: //button[contains(@data-id,'operator')]]
+[2017-05-04 15:23:30] [INFO] 找到了元素 [By.xpath: //button[contains(@data-id,'operator')]]
+[2017-05-04 15:23:30] [INFO] 开始查找元素[By.id: code]
+[2017-05-04 15:23:30] [INFO] 找到了元素 [By.id: code]
+[2017-05-04 15:23:30] [INFO] 开始查找元素[By.id: searchButton]
+[2017-05-04 15:23:30] [INFO] 找到了元素 [By.id: searchButton]
+[2017-05-04 15:23:30] [INFO] 开始查找元素[By.xpath: //img[contains(@src,'exportExcel')]]
+[2017-05-04 15:23:30] [INFO] 找到了元素 [By.xpath: //img[contains(@src,'exportExcel')]]
+[2017-05-04 15:23:30] [INFO] 开始查找元素[By.xpath: //table[@class='inventory_modal_table mt20']]
+[2017-05-04 15:23:30] [INFO] 找到了元素 [By.xpath: //table[@class='inventory_modal_table mt20']]
+[2017-05-04 15:23:30] [INFO] inventoryStockWorkflow 测试用例执行成功！
+[2017-05-04 15:23:30] [INFO] fileDownload 测试用例开始执行！
+[2017-05-04 15:23:32] [INFO] 点击元素 [By.xpath: //img[contains(@src,'exportExcel')]]
+[2017-05-04 15:23:32] [INFO] Retry for： [fileDownload] on class [com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test] retry 1 times
+[2017-05-04 15:23:32] [WARN] fileDownload 测试用例由于某些原因被跳过！
+[2017-05-04 15:23:32] [INFO] [2017_05_04_15_23_32_fileDownload] 截图成功，保存在：[ result/screenshot/2017_05_04_15_23_32_fileDownload.jpg ]
+[2017-05-04 15:23:32] [INFO] fileDownload 测试用例开始执行！
+[2017-05-04 15:23:34] [INFO] 点击元素 [By.xpath: //img[contains(@src,'exportExcel')]]
+[2017-05-04 15:23:34] [INFO] Retry for： [fileDownload] on class [com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test] retry 2 times
+[2017-05-04 15:23:34] [WARN] fileDownload 测试用例由于某些原因被跳过！
+[2017-05-04 15:23:34] [INFO] [2017_05_04_15_23_34_fileDownload] 截图成功，保存在：[ result/screenshot/2017_05_04_15_23_34_fileDownload.jpg ]
+[2017-05-04 15:23:34] [INFO] fileDownload 测试用例开始执行！
+[2017-05-04 15:23:35] [INFO] 点击元素 [By.xpath: //img[contains(@src,'exportExcel')]]
+[2017-05-04 15:23:35] [WARN] fileDownload 测试用例执行失败！
+[2017-05-04 15:23:36] [INFO] [2017_05_04_15_23_35_fileDownload] 截图成功，保存在：[ result/screenshot/2017_05_04_15_23_35_fileDownload.jpg ]
+[2017-05-04 15:23:36] [INFO] listVerification 测试用例开始执行！
+[2017-05-04 15:23:37] [INFO] 点击元素 [By.xpath: //button[contains(@data-id,'storageRoom')]]
+[2017-05-04 15:23:37] [INFO] 点击仓库，下拉列表正常展开成功
+[2017-05-04 15:23:39] [INFO] 点击元素 [By.xpath: //button[contains(@data-id,'goodsType')]]
+[2017-05-04 15:23:39] [INFO] 点击物料类型，下拉列表正常展开成功
+[2017-05-04 15:23:40] [INFO] 点击元素 [By.xpath: //button[contains(@data-id,'operator')]]
+[2017-05-04 15:23:40] [INFO] 点击经办人，下拉列表正常展开成功
+[2017-05-04 15:23:41] [INFO] 点击元素 [By.xpath: //button[@data-id='goodsSource']]
+[2017-05-04 15:23:41] [INFO] 点击来源，下拉列表正常展开成功
+[2017-05-04 15:23:41] [INFO] listVerification 测试用例执行成功！
+[2017-05-04 15:23:41] [INFO] stockSearchVerification 测试用例开始执行！
+[2017-05-04 15:23:43] [INFO] 清除元素 [By.id: code]上的内容
+[2017-05-04 15:23:44] [INFO] 输入：[SP0933201601060001] 到 [By.id: code]
+[2017-05-04 15:23:47] [INFO] 点击元素 [By.id: searchButton]
+[2017-05-04 15:23:49] [INFO] 查找到对应结果，搜索正确
+[2017-05-04 15:23:49] [INFO] stockSearchVerification 测试用例执行成功！
+[2017-05-04 15:23:49] [INFO] collapseDisplayed 测试用例开始执行！
+[2017-05-04 15:23:50] [INFO] 点击元素 [By.xpath: //i[@class='collapse_btn']]
+[2017-05-04 15:23:54] [INFO] 点击元素 [By.xpath: //i[@class='collapse_btn']]
+[2017-05-04 15:23:56] [INFO] Retry for： [collapseDisplayed] on class [com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test] retry 1 times
+[2017-05-04 15:23:56] [WARN] collapseDisplayed 测试用例由于某些原因被跳过！
+[2017-05-04 15:23:56] [INFO] [2017_05_04_15_23_56_collapseDisplayed] 截图成功，保存在：[ result/screenshot/2017_05_04_15_23_56_collapseDisplayed.jpg ]
+[2017-05-04 15:23:56] [INFO] collapseDisplayed 测试用例开始执行！
+[2017-05-04 15:23:57] [INFO] 点击元素 [By.xpath: //i[@class='collapse_btn']]

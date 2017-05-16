@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [selenium_2_combat]" parallel="tests">
+  <parameter name="driverConfgFilePath" value="config/driver.properties"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="sleepTime" value="800"/>
+  <parameter name="testurl" value="http://cs1.nongchangyun.cn/login.seam"/>
+  <parameter name="waitMillisecondsForAlert" value="4000"/>
+  <parameter name="timeOut" value="10"/>
+  <listeners>
+    <listener class-name="com.acsm.test.plugins.arrow.TestResultListener"/>
+    <listener class-name="com.acsm.test.plugins.arrow.RetryListener"/>
+    <listener class-name="com.acsm.test.plugins.arrow.PowerEmailableReporter"/>
+  </listeners>
+  <test name="stock(failed)" parallel="tests">
+    <classes>
+      <class name="com.acsm.test.testcases.stock.enterstock.EnterStock_Test">
+        <methods>
+          <include name="startTest"/>
+          <include name="enterStockWorkflow"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.acsm.test.testcases.stock.enterstock.EnterStock_Test -->
+      <class name="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test">
+        <methods>
+          <include name="inventoryStockWorkflow"/>
+          <include name="listVerification"/>
+          <include name="stockSearchVerification"/>
+          <include name="startTest"/>
+          <include name="fileDownload"/>
+          <include name="collapseDisplayed"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test -->
+    </classes>
+  </test> <!-- stock(failed) -->
+</suite> <!-- Failed suite [selenium_2_combat] -->

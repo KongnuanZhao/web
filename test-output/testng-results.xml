@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="0" ignored="5" total="14" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_27_enterStockWorkflow.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_27_enterStockWorkflow.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=3]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=2]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[RunCount=3]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_fileDownload.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_fileDownload.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_28_listVerification.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_listVerification.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_29_stockSearchVerification.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_29_stockSearchVerification.jpg"/>]]>
+    </line>
+    <line>
+      <![CDATA[result/screenshot/2017_05_04_15_21_29_collapseDisplayed.jpg]]>
+    </line>
+    <line>
+      <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_29_collapseDisplayed.jpg"/>]]>
+    </line>
+  </reporter-output>
+  <suite name="selenium_2_combat" duration-ms="18080" started-at="2017-05-04T07:21:12Z" finished-at="2017-05-04T07:21:30Z">
+    <groups>
+      <group name="enterStock">
+        <method signature="EnterStock_Test.enterStockWorkflow()[pri:0, instance:com.acsm.test.testcases.stock.enterstock.EnterStock_Test@33c7e1bb]" name="enterStockWorkflow" class="com.acsm.test.testcases.stock.enterstock.EnterStock_Test"/>
+      </group> <!-- enterStock -->
+      <group name="inventoryStock">
+        <method signature="InventoryStock_Test.inventoryStockWorkflow()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="inventoryStockWorkflow" class="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test"/>
+        <method signature="InventoryStock_Test.fileDownload()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="fileDownload" class="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test"/>
+        <method signature="InventoryStock_Test.listVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="listVerification" class="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test"/>
+        <method signature="InventoryStock_Test.stockSearchVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="stockSearchVerification" class="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test"/>
+        <method signature="InventoryStock_Test.collapseDisplayed()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="collapseDisplayed" class="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test"/>
+      </group> <!-- inventoryStock -->
+    </groups>
+    <test name="stock" duration-ms="18080" started-at="2017-05-04T07:21:12Z" finished-at="2017-05-04T07:21:30Z">
+      <class name="com.acsm.test.testcases.stock.enterstock.EnterStock_Test">
+        <test-method status="SKIP" signature="enterStockWorkflow()[pri:0, instance:com.acsm.test.testcases.stock.enterstock.EnterStock_Test@33c7e1bb]" name="enterStockWorkflow" duration-ms="64" started-at="2017-05-04T15:21:27Z" finished-at="2017-05-04T15:21:27Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'left_icon_3.png')]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-201704071546', ip: '192.168.153.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8568_31277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5dc377aba089d9cd3dbf75cbcdfa63e
+*** Element info: {Using=xpath, value=//img[contains(@src,'left_icon_3.png')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'left_icon_3.png')]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-201704071546', ip: '192.168.153.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8568_31277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5dc377aba089d9cd3dbf75cbcdfa63e
+*** Element info: {Using=xpath, value=//img[contains(@src,'left_icon_3.png')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.acsm.test.utils.SeleniumUtil.highlightElement(SeleniumUtil.java:115)
+	at com.acsm.test.utils.SeleniumUtil.mouseMoveToElement(SeleniumUtil.java:549)
+	at com.acsm.test.testpages.stock.enter.EnterStock.enterStock(EnterStock.java:20)
+	at com.acsm.test.testcases.stock.enterstock.EnterStock_Test.enterStockWorkflow(EnterStock_Test.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=2]]>
+            </line>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_27_enterStockWorkflow.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_27_enterStockWorkflow.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterStockWorkflow -->
+        <test-method status="SKIP" signature="enterStockWorkflow()[pri:0, instance:com.acsm.test.testcases.stock.enterstock.EnterStock_Test@33c7e1bb]" name="enterStockWorkflow" duration-ms="23" started-at="2017-05-04T15:21:28Z" finished-at="2017-05-04T15:21:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'left_icon_3.png')]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-201704071546', ip: '192.168.153.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8568_31277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5dc377aba089d9cd3dbf75cbcdfa63e
+*** Element info: {Using=xpath, value=//img[contains(@src,'left_icon_3.png')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[contains(@src,'left_icon_3.png')]"}
+  (Session info: chrome=56.0.2924.87)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'PC-201704071546', ip: '192.168.153.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8568_31277}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=56.0.2924.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: c5dc377aba089d9cd3dbf75cbcdfa63e
+*** Element info: {Using=xpath, value=//img[contains(@src,'left_icon_3.png')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at com.acsm.test.utils.SeleniumUtil.highlightElement(SeleniumUtil.java:115)
+	at com.acsm.test.utils.SeleniumUtil.mouseMoveToElement(SeleniumUtil.java:549)
+	at com.acsm.test.testpages.stock.enter.EnterStock.enterStock(EnterStock.java:20)
+	at com.acsm.test.testcases.stock.enterstock.EnterStock_Test.enterStockWorkflow(EnterStock_Test.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=3]]>
+            </line>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_enterStockWorkflow.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- enterStockWorkflow -->
+      </class> <!-- com.acsm.test.testcases.stock.enterstock.EnterStock_Test -->
+      <class name="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test">
+        <test-method status="SKIP" signature="inventoryStockWorkflow()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="inventoryStockWorkflow" duration-ms="26" started-at="2017-05-04T15:21:28Z" finished-at="2017-05-04T15:21:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[超时!! 0 秒之后还没找到元素 [By.xpath: //div[@class='inbentory_level']]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 超时!! 0 秒之后还没找到元素 [By.xpath: //div[@class='inbentory_level']]
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.acsm.test.utils.SeleniumUtil.waitForElementToLoad(SeleniumUtil.java:300)
+	at com.acsm.test.testpages.stock.inventoryfile.InventoryFile.waitElementsLoad(InventoryFile.java:25)
+	at com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow(InventoryStock_Test.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=2]]>
+            </line>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inventoryStockWorkflow -->
+        <test-method status="SKIP" signature="inventoryStockWorkflow()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="inventoryStockWorkflow" duration-ms="24" started-at="2017-05-04T15:21:28Z" finished-at="2017-05-04T15:21:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[超时!! 0 秒之后还没找到元素 [By.xpath: //div[@class='inbentory_level']]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 超时!! 0 秒之后还没找到元素 [By.xpath: //div[@class='inbentory_level']]
+	at org.testng.Assert.fail(Assert.java:93)
+	at com.acsm.test.utils.SeleniumUtil.waitForElementToLoad(SeleniumUtil.java:300)
+	at com.acsm.test.testpages.stock.inventoryfile.InventoryFile.waitElementsLoad(InventoryFile.java:25)
+	at com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow(InventoryStock_Test.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:1014)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1215)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[RunCount=3]]>
+            </line>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_inventoryStockWorkflow.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inventoryStockWorkflow -->
+        <test-method status="SKIP" signature="fileDownload()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="fileDownload" duration-ms="0" started-at="2017-05-04T15:21:28Z" depends-on-methods="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow" finished-at="2017-05-04T15:21:28Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method InventoryStock_Test.fileDownload()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method InventoryStock_Test.fileDownload()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_28_fileDownload.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_fileDownload.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fileDownload -->
+        <test-method status="SKIP" signature="listVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="listVerification" duration-ms="0" started-at="2017-05-04T15:21:28Z" depends-on-methods="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow" finished-at="2017-05-04T15:21:28Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method InventoryStock_Test.listVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method InventoryStock_Test.listVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_28_listVerification.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_28_listVerification.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- listVerification -->
+        <test-method status="SKIP" signature="stockSearchVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="stockSearchVerification" duration-ms="0" started-at="2017-05-04T15:21:29Z" depends-on-methods="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.inventoryStockWorkflow" finished-at="2017-05-04T15:21:29Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method InventoryStock_Test.stockSearchVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method InventoryStock_Test.stockSearchVerification()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_29_stockSearchVerification.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_29_stockSearchVerification.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- stockSearchVerification -->
+        <test-method status="SKIP" signature="collapseDisplayed()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973]" name="collapseDisplayed" duration-ms="0" started-at="2017-05-04T15:21:29Z" depends-on-methods="com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test.stockSearchVerification" finished-at="2017-05-04T15:21:29Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method InventoryStock_Test.collapseDisplayed()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method InventoryStock_Test.collapseDisplayed()[pri:0, instance:com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test@34c4973] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[result/screenshot/2017_05_04_15_21_29_collapseDisplayed.jpg]]>
+            </line>
+            <line>
+              <![CDATA[<img src="../../result/screenshot/2017_05_04_15_21_29_collapseDisplayed.jpg"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- collapseDisplayed -->
+      </class> <!-- com.acsm.test.testcases.stock.inventoryfile.InventoryStock_Test -->
+      <class name="com.acsm.test.testcases.login.LoginSuccessFunction_Test">
+        <test-method status="PASS" signature="startTest(org.testng.ITestContext)[pri:0, instance:com.acsm.test.testcases.login.LoginSuccessFunction_Test@30a3107a]" name="startTest" is-config="true" duration-ms="7758" started-at="2017-05-04T15:21:12Z" finished-at="2017-05-04T15:21:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76a3e297]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="loginSuccessFunction()[pri:0, instance:com.acsm.test.testcases.login.LoginSuccessFunction_Test@30a3107a]" name="loginSuccessFunction" duration-ms="7716" started-at="2017-05-04T15:21:20Z" finished-at="2017-05-04T15:21:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessFunction -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.acsm.test.testcases.login.LoginSuccessFunction_Test@30a3107a]" name="endTest" is-config="true" duration-ms="1102" started-at="2017-05-04T15:21:29Z" finished-at="2017-05-04T15:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.acsm.test.testcases.login.LoginSuccessFunction_Test -->
+    </test> <!-- stock -->
+  </suite> <!-- selenium_2_combat -->
+</testng-results>

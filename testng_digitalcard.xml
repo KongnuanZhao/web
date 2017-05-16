@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!-- thread-count 定义同时启动的浏览器数 、parallel="tests" 表明每个test都是平级的 -->
+<suite name="selenium_2_combat" parallel="tests" thread-count="1">
+	<!-- chrome,firefox,ghost和ie不区分大小写 -->
+	<parameter name="browserName" value="chrome" />
+	<!-- driver的属性配置文件保存路径 -->
+	<parameter name="driverConfgFilePath" value="config/driver.properties" />
+	<!-- 定义测试的站点 -->
+	<parameter name="testurl" value="http://cs1.nongchangyun.cn/login.seam" />
+	<!-- 进程等待1秒中的控制时间 ms -->
+	<parameter name="sleepTime" value="800" />
+	<!-- 页面元素10秒不出现超时时间 s -->
+	<parameter name="timeOut" value="10" />
+
+	<!-- 定义测试模块，用test标签包围 -->
+
+	<test name="purchase" preserve-order="true">
+
+		<classes>
+			<class
+				name="com.acsm.test.testcases.login.LoginSuccessFunction_Test" />
+			<class name="com.acsm.test.testcases.digitalcard.EnterDigitalCard_Test" />
+			<class name="com.acsm.test.testcases.digitalcard.digitalcardedit.DigitalCardEdit_Test" />
+		</classes>
+	</test>
+
+	<listeners>
+		<!-- arrow插件实现用例失败重跑以及生成测试报告 -->
+		<listener class-name="com.acsm.test.plugins.arrow.TestResultListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.RetryListener" />
+		<listener class-name="com.acsm.test.plugins.arrow.PowerEmailableReporter" />
+	</listeners>
+</suite> 
